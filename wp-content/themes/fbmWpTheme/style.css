@@ -1,0 +1,183 @@
+@import url('/wp-content/themes/fbmWpTheme/css/cyborg.min.css'); 
+
+.navbar-default .navbar-nav>li.current_page_item>a {
+  color: white;
+}
+
+.big_icon {
+  margin-top: 60px;
+  max-width: 50%;
+}
+
+.head_title{
+  font-size: 250%;
+  margin: 25px;
+}
+
+.jumbotron h1{
+  text-align: center;
+}
+
+.jumbotron p{
+  font-size: 100%;
+  text-align: left;
+}
+
+.blank_line{
+  height: 0;  
+}
+
+.sc_phone{
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  margin-top: 10px;
+}
+
+#footer{
+  border-top: 1px solid #282828;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+#dl_btn{
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.post_content img{
+  max-width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.post_content hr{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.post_content{
+  line-height: 200%;
+  color: white;
+  font-family: 'Raleway', sans-serif, arial;
+  font-weight: lighter;
+}
+
+.post_time{
+  font-size: 85%;
+}
+
+.content-area-wide, .content-area {
+ padding-top: 1em;
+}
+
+.entry-content {
+  line-height: 150%;
+  font-size: 90%;
+}
+
+.entry-content code{
+  font-size: 80%;
+}
+
+.content-header{
+  padding-bottom: 0.5em;
+}
+
+h1.page-title, h1.entry-title{font-size: 145%;}
+.entry-content h2{font-size: 130%;}
+.entry-content h3{font-size: 115%;}
+
+.comment-form textarea, .comment-form input {
+ color: black;  
+}
+
+.comment-body {
+  border-top: 1px solid rgb(40,40,40);
+  padding: 10px 0 10px 0;
+}
+
+img.avatar-32 {
+  display: inline;
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+pre {
+  margin-bottom: 2.5em;
+}
+
+td {
+  padding: 0.5em;
+}
+
+p.tagline {
+  color: white;
+  padding: 0 16px 10px 16px;
+}
+
+@media (min-width: 768px) {
+
+  .head_title{
+    font-size: 400%;
+    margin: 40px;
+  }
+
+  .jumbotron p{
+    font-size: 120%;
+    text-align: center;
+  }
+  
+  .blank_line{
+    height: 10px;
+  }
+  
+  #dl_btn{
+    width: 40%;
+  }
+
+  .entry-content {
+    line-height: 200%;
+    font-size: 100%;
+  }
+
+  .entry-content code{
+    font-size: 90%
+  }
+
+  h1.page-title, h1.entry-title{font-size: 160%;}
+
+  .entry-content h2{font-size: 140%;}
+
+  .entry-content h3{font-size: 120%;}
+
+  pre {
+    margin-bottom: 3.5em;
+  }
+
+  td {
+    padding: 0.5em;
+  }
+  
+  p.tagline {
+    color: white;
+    padding: 0 16px 10px 16px;
+  }
+}
